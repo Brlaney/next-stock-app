@@ -1,15 +1,16 @@
 import * as React from 'react';
 import { cryptoEndpoint } from '@/lib/utils/crypto';
+import styles from '@/styles/pages/Tests.module.scss';
 
 function Test({ data, error }) {
 
   return (
-    <>
+    <div className={styles.container}>
       {error && <p>{error}</p>}
       <pre>
         <code>{JSON.stringify(data, null, 4)}</code>
       </pre>
-    </>
+    </div>
   );
 };
 
@@ -20,7 +21,7 @@ export async function getStaticProps() {
 
   try {
     const res = await fetch(
-      '`${cryptoEndpoint}`' + {append},
+      `${cryptoEndpoint}/${append}`,
       {
         method: 'GET',
       }

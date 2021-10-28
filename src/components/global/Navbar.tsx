@@ -3,8 +3,6 @@ import Link from 'next/link';
 import styles from '@/styles/components/Navbar.module.scss';
 
 export default function Navbar() {
-  const [active, setActive] = React.useState('');
-
   return (
     <div
       id={styles.navbar}
@@ -25,7 +23,7 @@ export default function Navbar() {
             href='/'
             className='uk-navbar-item uk-logo'
           >
-            [Mtrx]
+            Next-Stocks
           </a>
         </div>
 
@@ -38,8 +36,9 @@ export default function Navbar() {
               <li
                 className={styles.active}
               >
-                <Link href='#'>
+                <Link href='/tests'>
                   <a className={styles.link}>
+                    Tests
                   </a>
                 </Link>
               </li>

@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='keywords' content='Crypto, cryptocurrency, stock market, stocks, NYSE, money, finance' />
         <meta name='description' content='NYSE stock API and Cryptocurrency stock API' />
-        <link rel='icon' type='image/png' href='/favicon/mtrx-favicon.png' />
+        <link rel='icon' type='image/png' href='/favicon.svg' />
         <title>Next-Stock-App</title>
       </Head>
       <Navbar />
