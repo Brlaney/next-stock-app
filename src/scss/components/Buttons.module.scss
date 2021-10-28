@@ -1,0 +1,159 @@
+@import '../theme/theme';
+
+#goback {
+  position: absolute;
+  width: 46px;
+  height: 32px;
+  padding: 0.1rem 0.5rem;
+  background-color: $secondary;
+  color: $light;
+  border: 0;
+  border-radius: 3px;
+  left: 2%;
+  margin: 1rem 0 1rem 0;
+  top: 10%;
+}
+
+.brandDiv {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  .brandIcon {
+    font-weight: 400;
+  }
+}
+
+.dotnav {
+  margin: 0;
+  width: 60vw;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  #dotnavInner {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 400px;
+    height: 30px;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    .active {
+      background-color: $secondary;
+      width: 80px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      margin: auto;
+      padding: auto;
+      .active {
+        background-color: $secondary;
+        width: 80px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        padding: auto;
+      }
+    }
+    .notactive {
+      background-color: transparent;
+      width: 80px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      margin: auto;
+      padding: auto;
+      .notactive {
+        background-color: transparent;
+        width: 80px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        padding: auto;
+      }
+    }
+  }
+}
+
+#dotnav:hover {
+  cursor: none;
+}
+
+
+#not:hover {
+  cursor: none;
+  text-decoration: none;
+}
+
+#is:hover {
+  cursor: none;
+  text-decoration: none;
+}
+
+#nota {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: auto;
+}
+
+#isa {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: auto;
+}
+
+.uk-active {
+  #isa {
+    background-color: $secondary;
+  }
+}
+
+#nota:hover {
+  cursor: none;
+  text-decoration: none;
+}
+
+#isa:hover {
+  cursor: none;
+  text-decoration: none;
+}
+
+.formButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#btnRow {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.testbtn { 
+  padding: 0.45 1.2rem;
+  border-radius: 3px;
+  width: $btn-width;
+  height: $btn-height;
+  border: 1px solid $border-color;
+}
