@@ -2,7 +2,7 @@ import * as React from 'react';
 import { cryptoEndpoint } from '@/lib/utils/crypto';
 import styles from '@/styles/pages/Tests.module.scss';
 
-function Test({ data, error }) {
+function Nyse({ data, error }) {
   return (
     <>
       <h2 className={styles.title}>
@@ -49,4 +49,4 @@ export async function getStaticProps() {
   }
 };
 
-export default Test;
+export default Nyse;
