@@ -7,6 +7,7 @@ const navLinks = [
   { id: 1, name: 'Crypto', link: '/cryptocurrency', active: 0 },
   { id: 2, name: 'NYSE', link: '/nyse', active: 0 },
   { id: 3, name: 'Test', link: '/tests', active: 0 },
+  { id: 4, name: 'Test-Chart', link: '/tests/TestChart', active: 0 },
 ];
 
 export default function Navbar() {
